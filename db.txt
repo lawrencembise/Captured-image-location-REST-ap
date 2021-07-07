@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `imageLocs` (
+  id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  latitude varchar(255) NOT NULL,
+  longitude varchar(255) NOT NULL,
+  imageUrl varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
