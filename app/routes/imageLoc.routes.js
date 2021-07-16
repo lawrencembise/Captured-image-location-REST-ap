@@ -1,21 +1,21 @@
 module.exports = app => {
     const imageLoc = require("../controllers/imageLoc.controller.js");
   
-    // Create a new Customer
+    // Create a new imageLoc
     app.post("/imageLoc", imageLoc.create);
   
     // Retrieve all imageLoc
     app.get("/imageLoc", imageLoc.findAll);
   
-    // Retrieve a single Customer with imageLocId
+    // Retrieve a single imageLoc with imageLocId
     app.get("/imageLoc/:imageLocId", imageLoc.findOne);
   
-    // Update a Customer with imageLocId
+    // Update a imageLoc with imageLocId
     app.put("/imageLoc/:imageLocId", imageLoc.update);
   
-    // Delete a Customer with imageLocId
+    // Delete a imageLoc with imageLocId
     app.delete("/imageLoc/:imageLocId", imageLoc.delete);
   
-    // Create a new Customer
+    // Delete all imageLoc
     app.delete("/imageLoc", imageLoc.deleteAll);
   };

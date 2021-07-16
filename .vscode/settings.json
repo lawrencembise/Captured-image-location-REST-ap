@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/a312fbcd-3882-41ab-b088-3d1fdcdeefbd/resourceGroups/ImageCaputureLocationAPI/providers/Microsoft.Web/sites/ImageCaputureLocationAPI",
+    "appService.deploySubpath": "."
+}
